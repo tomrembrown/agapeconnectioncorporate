@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "A simple REST API for the Agape Connection Corporate website",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "npm run prod",
+    "dev": "nodemon ./server.js",
+    "prod": "node ./server.js",
+    "server": "pm2 start ./server.js --name \"agapeconnectioncorporate-api\""
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
