@@ -5,17 +5,20 @@
       <div id="home__buttons" class="button">
         <router-link to="/about">About Us</router-link>
       </div>
+      <UnderConstruction />
     </div>
   </main>
 </template>
 
 <script>
 import HomePageGraphic from '@/components/Home/HomePageGraphic.vue'
+import UnderConstruction from '@/components/Home/UnderConstruction.vue'
 
 export default {
   name: 'Home',
   components: {
     HomePageGraphic,
+    UnderConstruction,
   },
 }
 </script>
