@@ -17,20 +17,25 @@ export default {
 </script>
 
 <style lang="scss">
+@use '@/displaysettings.scss' as d;
+
 :root {
   font-size: 16px;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Work Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 #app {
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-rows: auto auto 3.25rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4em auto 3em;
   grid-template-areas:
     'header'
     'main'
@@ -39,13 +44,27 @@ body {
 
 main {
   grid-area: main;
+  background-color: d.$background-color;
 }
 
 .button > a,
 .button > button {
   text-decoration: none;
   display: block;
-  padding: 0.3125rem 0.625rem;
+  border: 1px solid;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
   text-align: center;
+  background-color: d.$icon-gradient-1;
+  color: d.$font-color-2;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    background-color: d.$icon-gradient-0;
+    color: d.$font-color-1;
+  }
 }
 </style>

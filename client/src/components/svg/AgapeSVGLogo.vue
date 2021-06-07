@@ -1,5 +1,11 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.43 42.62">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 30.43 42.62"
+    :width="size"
+    :height="size"
+    aria-labelledby="Agape Connection Logo"
+  >
     <defs>
       <linearGradient
         id="a"
@@ -24,6 +30,9 @@
 <script>
 export default {
   name: 'AgapeSVGLogo',
+  props: {
+    size: { type: [Number, String], default: 25 },
+  },
 }
 </script>
 

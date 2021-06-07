@@ -1,7 +1,7 @@
 <template>
   <nav>
     <ul>
-      <li key="about">
+      <li key="about" class="button">
         <router-link to="/about">About Us</router-link>
       </li>
     </ul>
