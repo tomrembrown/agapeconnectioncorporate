@@ -1,7 +1,7 @@
 <template>
   <footer id="main-site-footer">
     <p>
-      <small>Copyright &copy;2021 Agape Connection.</small>
+      <small>Copyright &copy;2021 Ashroh Enterprises Inc.</small>
     </p>
     <address>
       Built by <a href="http://www.tomrembrown.com">Tom Brown</a>

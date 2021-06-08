@@ -4,7 +4,7 @@
     viewBox="0 0 30.43 42.62"
     :width="size"
     :height="size"
-    aria-labelledby="Agape Connection Logo"
+    aria-labelledby="Ashroh Enterprises Logo"
   >
     <defs>
       <linearGradient
@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: 'AgapeSVGLogo',
+  name: 'AshrohSVGLogo',
   props: {
     size: { type: [Number, String], default: 25 },
   },

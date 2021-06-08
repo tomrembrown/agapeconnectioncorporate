@@ -2,7 +2,7 @@
   <header id="main-site-header">
     <span id="branding">
       <Logo />
-      <h1>Agape Connection</h1>
+      <h1>Ashroh Enterprises</h1>
     </span>
     <Navigation />
   </header>

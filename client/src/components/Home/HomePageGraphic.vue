@@ -1,18 +1,18 @@
 <template>
   <div id="home__graphic">
-    <div id="home__graphic__logo"><AgapeSVGLogo size="60" /></div>
-    <div id="home__graphic__title"><h2>Agape Connection</h2></div>
+    <div id="home__graphic__logo"><AshrohSVGLogo size="60" /></div>
+    <div id="home__graphic__title"><h2>Ashroh Enterprises</h2></div>
     <div id="home__graphic__slogan"><p>Separation is an Illusion</p></div>
   </div>
 </template>
 
 <script>
-import AgapeSVGLogo from '../svg/AgapeSVGLogo'
+import AshrohSVGLogo from '../svg/AshrohSVGLogo'
 
 export default {
   name: 'HomePageGraphic',
   components: {
-    AgapeSVGLogo,
+    AshrohSVGLogo,
   },
 }
 </script>
@@ -38,7 +38,7 @@ export default {
 #home__graphic__title > h2 {
   font-family: 'Cabin', sans-serif;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: d.$font-color-1;
   margin: 0;
   margin-top: -0.2em;

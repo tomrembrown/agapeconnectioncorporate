@@ -1,14 +1,14 @@
 <template>
-  <div role="presentation" id="main-site-header__logo"><AgapeSVGLogo /></div>
+  <div role="presentation" id="main-site-header__logo"><AshrohSVGLogo /></div>
 </template>
 
 <script>
-import AgapeSVGLogo from '../svg/AgapeSVGLogo'
+import AshrohSVGLogo from '../svg/AshrohSVGLogo'
 
 export default {
   name: 'Logo',
   components: {
-    AgapeSVGLogo,
+    AshrohSVGLogo,
   },
 }
 </script>
